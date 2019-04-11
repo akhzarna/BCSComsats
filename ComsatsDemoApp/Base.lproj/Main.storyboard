@@ -38,7 +38,6 @@
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="SubmitAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kJQ-gW-oHB"/>
-                                    <segue destination="FcA-Bv-cKD" kind="show" id="dI7-hx-e3p"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,20 +54,45 @@
             </objects>
             <point key="canvasLocation" x="58" y="114"/>
         </scene>
-        <!--View Controller-->
+        <!--Dash Board View Controller-->
         <scene sceneID="h1L-W6-lEH">
             <objects>
-                <viewController id="FcA-Bv-cKD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DashBoardViewControllerID" id="FcA-Bv-cKD" customClass="DashBoardViewController" customModule="ComsatsDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oK2-rF-ekd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeD-bG-Hpp">
+                                <rect key="frame" x="164" y="272" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="NextViewAction:" destination="FcA-Bv-cKD" eventType="touchUpInside" id="2DN-ag-hmp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8fb-iV-l33"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y6k-2h-0MI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1206" y="124"/>
+            <point key="canvasLocation" x="887" y="114"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="s1z-FG-ydH">
+            <objects>
+                <viewController storyboardIdentifier="NextViewControllerID" id="pbJ-Su-FUw" customClass="NextViewController" customModule="ComsatsDemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5wP-iJ-aPK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FJT-z0-gGe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1b-zj-whY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1703" y="114"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nNh-ej-WPF">
@@ -83,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VzG-lO-jOn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2346" y="124"/>
+            <point key="canvasLocation" x="2498" y="114"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bvk-0l-98v">

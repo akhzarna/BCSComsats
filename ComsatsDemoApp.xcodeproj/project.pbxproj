@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0A123B225F0FA4001324AF /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A123A225F0FA4001324AF /* DashBoardViewController.swift */; };
+		FC0A123E225F1375001324AF /* GlobalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A123D225F1375001324AF /* GlobalManager.swift */; };
+		FC0A1240225F156B001324AF /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A123F225F156B001324AF /* NextViewController.swift */; };
 		FC471E7F22562D6500BB8DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC471E7E22562D6500BB8DE8 /* AppDelegate.swift */; };
 		FC471E8122562D6500BB8DE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC471E8022562D6500BB8DE8 /* ViewController.swift */; };
 		FC471E8422562D6500BB8DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC471E8222562D6500BB8DE8 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0A123A225F0FA4001324AF /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		FC0A123D225F1375001324AF /* GlobalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalManager.swift; sourceTree = "<group>"; };
+		FC0A123F225F156B001324AF /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		FC471E7B22562D6500BB8DE8 /* ComsatsDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComsatsDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC471E7E22562D6500BB8DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC471E8022562D6500BB8DE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC0A123C225F12E3001324AF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FC0A123D225F1375001324AF /* GlobalManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		FC471E7222562D6500BB8DE8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +111,11 @@
 		FC471E7D22562D6500BB8DE8 /* ComsatsDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC0A123C225F12E3001324AF /* Utilities */,
 				FC471E7E22562D6500BB8DE8 /* AppDelegate.swift */,
 				FC471E8022562D6500BB8DE8 /* ViewController.swift */,
+				FC0A123A225F0FA4001324AF /* DashBoardViewController.swift */,
+				FC0A123F225F156B001324AF /* NextViewController.swift */,
 				FC471E8222562D6500BB8DE8 /* Main.storyboard */,
 				FC471E8522562D6800BB8DE8 /* Assets.xcassets */,
 				FC471E8722562D6800BB8DE8 /* LaunchScreen.storyboard */,
@@ -256,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0A1240225F156B001324AF /* NextViewController.swift in Sources */,
+				FC0A123B225F0FA4001324AF /* DashBoardViewController.swift in Sources */,
 				FC471E8122562D6500BB8DE8 /* ViewController.swift in Sources */,
+				FC0A123E225F1375001324AF /* GlobalManager.swift in Sources */,
 				FC471E7F22562D6500BB8DE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,9 +14,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtPassword: UITextField!
 
     @IBAction func SubmitAction(_ sender: Any) {
+        
         print("Hello I am clicked")
         print(txtUserName.text ?? "")
         print(txtPassword.text ?? "")
+        
+        let dashBoard = self.storyboard?.instantiateViewController(withIdentifier: "DashBoardViewControllerID") as! DashBoardViewController
+        
+        dashBoard.userName = txtUserName.text
+        dashBoard.password = txtPassword.text
+        
+        self.navigationController?.pushViewController(dashBoard, animated: true)
+        
     }
     
     override func viewDidLoad() {
