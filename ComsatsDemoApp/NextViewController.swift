@@ -27,4 +27,23 @@ class NextViewController: UIViewController {
     }
     */
 
+    /// To Test The LifeCycle For any ViewController I have written These Functions
+    
+    override func viewWillAppear(_ animated: Bool) {
+        // Called when the view is about to made visible. Default does nothing
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        // Called when the view has been fully transitioned onto the screen. Default does nothing
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        // Called when the view is dismissed, covered or otherwise hidden. Default does nothing
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        // Called after the view was dismissed, covered or otherwise hidden. Default does nothing
+    }
+
+    
 }
