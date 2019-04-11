@@ -1,7 +1,3 @@
-# BCSComsats
-Class Work, Assignments etc
-
-
 iPhone Training
 
 
@@ -49,7 +45,6 @@ Tasks and Assignments ?? (Make A tabbed Applications using Static Screens at lea
 /// Scattered Data
 
 
-
 Sync Data with iCloud etc
 What are Playgrounds etc
 Third Parties (FireBase, AWS etc)
@@ -72,9 +67,6 @@ NSUserDefualts
 5- Delegates
 6- TableView
 
-
-
-1- Bilal Ahmed Ilaqa Sharqi
 
 	BaseView Controller
 	MVC
@@ -229,4 +221,3 @@ Social Media Interaction: In this module of iOS development course in Karachi yo
 Saving User Information: When user credentials are acquired, you will learn to save them in user defaults and fetch data in the defaults. You will also get an intro to core data in XCode project, creating database and inserting/fetching requests from core data and lab.
 Cocoapods in iOS: This part introduces cocoapods, its installation, importing 3rd party podfile, using XWorkSpace project, example libraries, Json and its arrays, objects, parsing of Json and basics of network request.
 Using the Network Request API: This module is divided into 3 parts. First you will learn to use libraries (Alamofire and HTTP), getting data from live server and decoding data from JSON and Lab. The second part is about intro to MVC and modal classes, populating them and using them in controller class and lab. The final part of iOS development Course in Lahore will focus on advance custom table, collection view, using JSON to show data in table and collection view and load more chunk of data on scrolling and lab.
-
