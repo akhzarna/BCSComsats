@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NextViewController: UIViewController {
+class NextViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +16,31 @@ class NextViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // Try to get a cell
+        
+        let identifier="NextTableViewCell"
+        let cell=tableView.dequeueReusableCell(withIdentifier: identifier) as! NextTableViewCell
+        return cell
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    //    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    //        if section == 0  {
+    //            return nil
+    //        } else if section == 1 {
+    //            return "Features"
+    //        }else{
+    //            return "Property Map"
+    //        }
+    //    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
 
     /*
     // MARK: - Navigation
